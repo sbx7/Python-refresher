@@ -2,7 +2,7 @@ import time
 
 def sigma():
     print("omg really, are you sure?")
-    response=input("(yes/no): ")
+    response=input("(yes/no): ") # I hate that I gotta define this var for the input, theres probably another way im just dumb.
     if response=="yes":
         sigma()
     else:

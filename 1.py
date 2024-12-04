@@ -1,8 +1,17 @@
 import time
+
+def sigma():
+    print("omg really, are you sure?")
+    response=input("(yes/no): ")
+    if response=="yes":
+        sigma()
+    else:
+        print("ok")
+
 print("Hello Chat!")
 time.sleep(2)
 name=input("What is your name? ")
 if name=="Bob":
-    print("omg really?")
+    sigma()
 else:
     print("Oh, ok. I thought you where bob.")

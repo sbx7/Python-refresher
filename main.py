@@ -6,7 +6,8 @@ def sigma():
     if response=="yes":
         sigma()
     else:
-        print("ok")
+        print("liar liar and your pants are on fire")
+        time.sleep(3)
 
 print("Hello Chat!")
 time.sleep(2)
@@ -15,3 +16,4 @@ if name=="Bob":
     sigma()
 else:
     print("Oh, ok. I thought you where bob.")
+    time.sleep(3)
